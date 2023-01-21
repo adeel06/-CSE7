@@ -1,0 +1,15 @@
+def main():
+   concentration = "fred"
+   fred = "computer"
+   computer = "department"
+   department = "student"
+   student = "concentration"
+   sentence (concentration, fred, department)
+   sentence (student, computer, fred)
+   sentence ("Fred", "honor", computer)
+   sentence ("foo", "bar", "baz")
+   sentence (fred, computer, student)
+def sentence (concentration, fred, foo):
+   print ("Many a " + foo + " in the "
+                  + fred + " of " + concentration)
+main()
